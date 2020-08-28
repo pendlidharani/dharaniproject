@@ -1,4 +1,4 @@
-ass Deck {
+class Deck {
 
 	    constructor() {
 		         this.deck =[]
