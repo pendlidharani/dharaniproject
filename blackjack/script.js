@@ -35,27 +35,27 @@ ass Deck {
 		         else{
 				         for (var c=0; c<this.deck.length; c++) {
 						         //console.log(c, this.deck[c])
-						 //        var playerhand = Math.floor(Math.random() * this.name.length )
-						 //                var playerhand1 = Math.floor(Math.random() * this.name.length )
-						 //                        var dealerhand = Math.floor(Math.random() * this.name.length )
-						 //                                var dealerhand1 = Math.floor(Math.random() * this.name.length )
-						 //
-						 //                                        var playerHandValue = playerhand + playerhand1
-						 //                                                var dealerHandValue = dealerhand + dealerhand1
-						 //                                                        console.log(c)
-						 //                                                                console.log('playerhand:'+ playerhand +','+  playerhand1)
-						 //                                                                        console.log('player-hand-value :'+ playerHandValue)
-						 //                                                                                console.log('dealer-hand:' + dealerhand +','+ dealerhand1)
-						 //                                                                                        console.log('dealer-Hand-Value :'+ dealerHandValue)
-						 //                                                                                                if( playerHandValue < dealerHandValue  && dealerHandValue <= 21) {
-						 //                                                                                                            console.log("player is the winner")
-						 //                                                                                                                    }
-						 //                                                                                                                           }
-						 //                                                                                                                                }
-						 //                                                                                                                                    }
-						 //                                                                                                                                    }
-						 //                                                                                                                                    deck = new Deck()
-						 //                                                                                                                                    deck.generate_deck()
-						 //
-						 //                                                                                                                                    deck.print_deck()
-						 //
+						         var playerhand = Math.floor(Math.random() * this.name.length )
+						                 var playerhand1 = Math.floor(Math.random() * this.name.length )
+						                         var dealerhand = Math.floor(Math.random() * this.name.length )
+						                                 var dealerhand1 = Math.floor(Math.random() * this.name.length )
+						 
+						                                        var playerHandValue = playerhand + playerhand1
+						                                                var dealerHandValue = dealerhand + dealerhand1
+						                                                         console.log(c)
+						                                                                 console.log('playerhand:'+ playerhand +','+  playerhand1)
+						                                                                         console.log('player-hand-value :'+ playerHandValue)
+						                                                                                 console.log('dealer-hand:' + dealerhand +','+ dealerhand1)
+						                                                                                         console.log('dealer-Hand-Value :'+ dealerHandValue)
+						                                                                                                 if( playerHandValue < dealerHandValue  && dealerHandValue <= 21) {
+						                                                                                                             console.log("player is the winner")
+						                                                                                                                     }
+						                                                                                                                            }
+						                                                                                                                                }
+						                                                                                                                                    }
+						                                                                                                                                 }
+						                                                                                                                                  deck = new Deck()
+						                                                                                                                                    deck.generate_deck()
+						
+						                                                                                                                                    deck.print_deck()
+						 
